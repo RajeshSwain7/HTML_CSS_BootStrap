@@ -1,0 +1,43 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(220, 15%, 55%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.qr-code {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(219, 23%, 71%);
+}
+@media screen and (min-width: 768px) {
+  /* Adjust card width for tablets */
+  .card {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* Adjust card width for desktop screens */
+  .card {
+    max-width: 1200px;
+  }
+}

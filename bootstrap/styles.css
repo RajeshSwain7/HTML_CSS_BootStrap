@@ -1,0 +1,60 @@
+/* .alert {
+      
+    padding: .75rem 1.25rem;
+  
+    border-radius: .25rem;
+  
+  }
+  
+  .alert-primary {
+  
+    color: #004085;
+  
+    background-color: #cce5ff;
+   */
+body {
+  background-color: aqua;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+.footer-copyright a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.welcome {
+  animation: fadeIn 2s ease-in-out;
+  color: orange;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}

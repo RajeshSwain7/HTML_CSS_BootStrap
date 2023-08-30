@@ -1,0 +1,51 @@
+/* body color*/
+.background {
+  background-color: snow;
+}
+/* Main heading */
+.main-heading {
+  color: indigo;
+}
+/* subtitle */
+.main-subtitle {
+  color: gray;
+}
+/* Team member section view */
+.team-member {
+  width: 256px;
+  padding: 20px;
+  margin: 20px;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+}
+/* Member-1 */
+#Anna {
+  background-color: darkcyan;
+  color: beige;
+}
+#Anna h2,
+#Anna h3 {
+  color: honeydew;
+}
+/* Member-2 */
+#Harry {
+  background-color: cornsilk;
+  color: black;
+}
+#harry h2,
+#harry h3 {
+  color: darkslategray;
+}
+/* Member-3 */
+#Sofia {
+  background-color: dodgerblue;
+  color: lightcyane;
+}
+#Sofia h2 #Sofia h3 {
+  color: navy;
+}
+/* footer sectio */
+#developer {
+  color: brown;
+}

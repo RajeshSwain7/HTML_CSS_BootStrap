@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Font Link (Add the actual font link here) */
+      @import url("https://fonts.googleapis.com/css2?family=Your+Font+Here");
+
+      /* Resetting default browser styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Setting the base font size */
+      html {
+        font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+      }
+
+      /* Setting the body font and fallback fonts */
+      body {
+        font-family: "Your Font Here", sans-serif; /* Add your font here */
+      }
+
+      /* Sidebar styles */
+      .sidebar {
+        border: 1px solid #dadada;
+        border-radius: 0 5px 5px 0; /* Rounded on top-right and bottom-right */
+        width: 10rem;
+        height: 80vh;
+        margin: 1rem; /* 1rem margin all around */
+        padding: 2rem 0; /* 2rem padding top and bottom, no padding left and right */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      /* Sidebar heading styles */
+      #sb-heading {
+        text-transform: uppercase;
+        color: blueviolet;
+        padding: 0.5rem; /* 0.5rem padding on top and bottom, 0 padding on left and right */
+        font-size: 1.2rem; /* 12px when 1rem = 16px */
+        letter-spacing: 2px;
+        margin-bottom: 4px; /* Separation from items */
+      }
+
+      /* Sidebar item styles */
+      .sb-item {
+        padding: 0.5rem; /* 0.5rem all around the content */
+        margin: 4px 0; /* Separation between items */
+        cursor: pointer;
+        transition: font-weight 0.3s, background-color 0.3s;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+      }
+
+      .sb-item:hover {
+        font-weight: 600; /* Semi-bold on hover */
+        background-color: #f0f0f0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <aside class="sidebar">
+      <h3 id="sb-heading">Workspace</h3>
+      <div class="sb-item">Home</div>
+      <div class="sb-item">Dashboard</div>
+      <div class="sb-item">Analytics</div>
+      <div class="sb-item">Profile</div>
+    </aside>
+  </body>
+</html>

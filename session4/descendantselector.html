@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* entire Paragraph will highlight */
+      /* p {
+        color: aqua;
+      } */
+      /* only inside div got highlight */
+      div p {
+        color: aqua;
+      }
+      /* only section part will highlight */
+      /* section p {
+        color: aqua;
+      } */
+    </style>
+  </head>
+  <body>
+    <h2>Dedcendent selector</h2>
+    <p>
+      The descendant selector matches all elements that are descendants of a
+      specified element.
+    </p>
+    <div>
+      <p>Paragraph 1 inside div</p>
+      <p>Paragraph 2 inside div</p>
+      <section><p>Paragraph 3 inside div</p></section>
+    </div>
+    <p>Paragraph 4 outside of div</p>
+  </body>
+</html>

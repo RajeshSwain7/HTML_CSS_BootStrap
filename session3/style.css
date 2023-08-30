@@ -1,0 +1,10 @@
+.article:hover {
+  background-color: yellow;
+  color: red;
+}
+.article:visited {
+  color: blue;
+}
+.art:active {
+  color: deeppink;
+}
